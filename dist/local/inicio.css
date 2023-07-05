@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex-grow: 1;
+    background-image: linear-gradient(to right, #cccccc, #ffffff);
+    background-position: center;
+  }
+  
+  .alert-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 20px;
+  }
